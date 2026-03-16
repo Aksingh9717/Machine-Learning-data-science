@@ -1,0 +1,48 @@
+##Ordinal Encoding & Label Encoding Practice
+
+This notebook is part of my daily data science learning workflow where I practice important preprocessing techniques used in machine learning.
+
+In this practice, I implemented categorical encoding methods using Python in Google Colab.
+
+🚀 Concepts Covered
+
+Understanding categorical variables
+
+Ordinal Encoding --Ordinal Encoding is used for feature columns (X).
+
+Label Encoding -- Label Encoding is mainly used for the target variable (y).
+
+When to use each encoding technique
+
+Converting categorical data into numerical format for ML models
+
+🔹 Ordinal Encoding
+
+Ordinal Encoding is used when categorical values have a meaningful order or ranking.
+
+Example:
+Education Level → School < College < Postgraduate
+
+Here, the order matters, so encoding should preserve this hierarchy.
+
+🔹 Label Encoding
+
+Label Encoding is used when categorical values do not have any logical order.
+
+Example:
+Colors → Red, Blue, Green
+
+In this case, numbers are just labels and do not represent ranking.
+
+🧠 Why This is Important
+
+Machine learning models cannot understand text-based categorical values.
+Encoding helps convert these categories into numerical form so models can process them.
+
+Choosing the correct encoding technique improves:
+
+Model performance
+
+Data interpretation
+
+Feature representation
