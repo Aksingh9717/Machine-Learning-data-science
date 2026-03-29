@@ -1,0 +1,43 @@
+#Power Transformation (Box-Cox & Yeo-Johnson)
+
+📊 Power Transformation (Box-Cox & Yeo-Johnson)
+
+
+🔹 What is Power Transformation?
+
+Power Transformation is used to make data more normally distributed.
+
+Many machine learning algorithms perform better when:
+
+Data is normally distributed
+Variance is stable
+Skewness is reduced
+🔹 Types of Power Transformation
+1️⃣ Box-Cox Transformation
+Works only with positive values
+Used to reduce right skewness
+Common in statistical modeling
+2️⃣ Yeo-Johnson Transformation
+Works with positive and negative values
+More flexible than Box-Cox
+Useful in real-world datasets
+🔹 Why Do We Use Power Transformation?
+
+In real datasets:
+
+Features are often skewed
+Data may not follow normal distribution
+Models may perform poorly
+
+Power transformation helps:
+
+✔ Reduce skewness
+✔ Stabilize variance
+✔ Improve model accuracy
+✔ Meet model assumptions
+
+🔹 When to Use
+When data is highly skewed
+When using statistical models
+Before applying linear models
+During feature preprocessing
